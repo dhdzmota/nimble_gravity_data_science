@@ -110,8 +110,6 @@ def identify_outliers(data):
         Data that has additional information, with respect if there are
         any subsesisons in the process.
 
-
-
     """
     df = data.copy()
     # We get the information between url's to see how many time is taken
