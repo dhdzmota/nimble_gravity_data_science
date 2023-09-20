@@ -18,8 +18,9 @@ Project Organization
     ├── notebooks          <- folder that contains the jupyter notebooks to explain with additional detail the challenge.
     │
     ├── python_code        <- Python code for use in this project.
-    │   ├── download_s3_data.py    <- File to download all the data.
-    │   └── process_data_to_interim.py    <- File to read raw data process it and send it into interim folder.
+    │   ├── download_s3_data.py          <- File to download all the data.
+    │   ├── process_data_to_interim.py   <- File to read raw data process it and send it into interim folder.
+    │   └── process_data_to_processed.py <- File to read raw data process it and send it into processed folder.
     │
     ├── resources          <- Information and documents relevant to the challenge.
     │
