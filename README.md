@@ -10,7 +10,8 @@ Project Organization
     ├── README.md          <- The top-level README file for understanding the project.
     ├── data
     │   ├── raw            <- The original, immutable data dump.
-    │   └── interim        <- Some process was applied to raw data.
+    │   ├── interim        <- Some process was applied to raw data
+    │   └── processed      <- Additional process for another data set (from raw).
     │
     ├── figures            <- folder with the images of the results of the challenge.
     │
