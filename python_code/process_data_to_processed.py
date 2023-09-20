@@ -32,7 +32,7 @@ def process_ta_data(data):
     # We create a new column with the previous targeturl
     df['prev_targeturl'] = df.targeturl.shift(1)
     # Now we identify the empty referrers and replace them (prev_targeturl)
-    empty_referrer_condition = df.referrerurl==''
+    empty_referrer_condition = df.referrerurl == ''
     df.loc[empty_referrer_condition, 'referrerurl'] = \
         df.loc[empty_referrer_condition].prev_targeturl
     # Then when this is done, now we make a next_referer column.
@@ -135,7 +135,6 @@ if __name__ == '__main__':
         info = info[info.session_ta.notna()]
         information.append(info)
         print(f'Processed file {file}. Appending information...')
-        break
 
     data = pd.concat(information)
     data.to_parquet(data_file)
