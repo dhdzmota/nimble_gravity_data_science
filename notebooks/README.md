@@ -2,7 +2,7 @@ Nimble Gravity Challenge: Data Science
 --------------
 
 This folder contains the results of the Nimble Gravity Challenge for the Data Science step.
-Please feel free to open the `.pynb` or the `.html` files to see the solution. 
+Please feel free to open the `.ipynb` or the `.html` files to see the solution. 
 
 Task1 and Task2 are resolved in the `DS-PythonTest(task1_and_task2).ipynb` file.
 Task3 is resolved in the `DS-PythonTest(task3).ipynb` file.
