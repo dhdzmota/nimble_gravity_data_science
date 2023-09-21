@@ -5,7 +5,7 @@ through the use of advanced statistical analysis and non-supervised machine lear
 
 SOLUTION
 --------------
-Solution to the challenge is in the notebooks folder.
+Solution to the challenge is in the `notebooks` folder.
 
 Project Organization
 ------------
@@ -35,7 +35,7 @@ Project Organization
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    └── config.yaml       <- <- Yaml file that contains credentials. 
+    └── config.yaml       <-  Yaml file that contains credentials. 
 
 Additional Considerations
 ------------

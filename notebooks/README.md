@@ -14,7 +14,7 @@ To do that follow the steps:
 the necessary credentials (take the `confige.yaml.default` as example to modify without changing the keys).
 - Make sure you have a virtual environment to pip install the requirements.txt file by running `pip install -r requirements.txt`
 - Run the following python scripts in the provided order that are found in the `python_code` folder:
-  - download_s3_data.py
-  - process_data_to_interim.py
-  - process_data_to_processed.py
-- Now you can run the notebooks. 
+  - `download_s3_data.py`
+  - `process_data_to_interim.py`
+  - `process_data_to_processed.py`
+- Now you can run the notebooks.
