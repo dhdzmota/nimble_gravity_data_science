@@ -3,7 +3,7 @@ Nimble Gravity Challenge: Data Science
 Given the information provided in the `resources` folder, an approach was generated to find the relevant information
 through the use of advanced statistical analysis and non-supervised machine learning tools. 
 
-SOLUTION
+Solution
 --------------
 Solution to the challenge is in the `notebooks` folder.
 
