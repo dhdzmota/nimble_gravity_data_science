@@ -1,7 +1,7 @@
 Nimble Gravity Challenge: Data Science
 --------------
 Given the information provided in the `resources` folder, an approach was generated to find the relevant information
-through the use of advanced statitical analysis and non-supervised machine learning tools. 
+through the use of advanced statistical analysis and non-supervised machine learning tools. 
 
 
 Project Organization
@@ -13,9 +13,11 @@ Project Organization
     │   ├── interim        <- Some process was applied to raw data
     │   └── processed      <- Additional process for another data set (from raw).
     │
-    ├── figures            <- folder with the images of the results of the challenge.
+    ├── figures            <- Folder with the images relevant to the challenge.
     │
-    ├── notebooks          <- folder that contains the jupyter notebooks to explain with additional detail the challenge.
+    ├── notebooks          <- Folder that contains the jupyter notebooks to explain with additional detail the challenge.
+    │   ├── DS-PythonTest(task1_and_task2).ipynb   <- Answer to the task1 and task2 of the challenge.
+    │   └── DS-PythonTest(task3).ipynb             <- Answer to the task3 of the challenge.
     │
     ├── python_code        <- Python code for use in this project.
     │   ├── download_s3_data.py          <- File to download all the data.
@@ -26,10 +28,8 @@ Project Organization
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
-    │                  
-    ├── config.yaml        <- Yaml file that contains credentials.
     │
-    └── main_file.sh       <- Main file that contains all the commands to solve the challenge. 
+    └── config.yaml       <- <- Yaml file that contains credentials. 
 
 Additional Considerations
 ------------
